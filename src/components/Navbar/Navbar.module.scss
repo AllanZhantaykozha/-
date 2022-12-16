@@ -1,0 +1,106 @@
+.root {
+  display: flex;
+  height: 72px;
+
+  .logo {
+    margin-left: 79px;
+    margin-top: 16px;
+    height: 40px;
+    display: flex;
+
+    p {
+      font-size: 14px;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 40px;
+
+      align-items: center;
+      text-align: center;
+
+      margin-left: 11.5px;
+    }
+
+    svg {
+      margin-top: 4px;
+    }
+  }
+
+  .catalog_btn {
+    display: flex;
+
+    cursor: pointer;
+
+    margin-top: 16px;
+    margin-left: 40px;
+
+    width: 140px;
+    height: 40px;
+
+    background-color: #70c05b;
+    border-radius: 4px;
+
+    svg {
+      margin: 8px;
+    }
+
+    p {
+      color: #fff;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 40px;
+
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .links {
+    display: flex;
+    margin-top: 13.5px;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+
+    height: 50px;
+
+    div {
+      height: 50px;
+      margin-left: 24px;
+      text-align: center;
+      justify-content: space-between;
+
+      svg {
+        width: 22px;
+        height: 22px;
+
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .profil {
+    display: flex;
+
+    margin-top: 16px;
+
+    line-height: 40px;
+
+    margin-left: 40px;
+
+    img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+
+      margin-right: 10px;
+    }
+
+    p {
+      margin-right: 30px;
+    }
+
+    svg {
+      margin-top: 16px;
+    }
+  }
+}
